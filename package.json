@@ -1,0 +1,27 @@
+{
+  "name": "carculture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.38.13",
+    "next": "^15.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "^2.29.2",
+    "wagmi": "^2.15.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.4",
+    "typescript": "^5.8.3"
+  }
+}
